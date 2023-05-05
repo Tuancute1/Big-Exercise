@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Đăng ký</title>
+    <!-- Link CSS của Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JK" crossorigin="anonymous">
+    <!-- Link CSS tùy chỉnh -->
+    <link rel="stylesheet" href="../css/SignUp.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <div class="hero_area">
+        <div class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            SuperAudio
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span
+                                        class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html"> Giới thiệu shop </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="watch.html"> Sản phẩm </a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="SignIn.html"> SignIn </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="SignUp.html"> SignUp </a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="login">
+            <div class="col-md-6">
+                <div class="card ">
+                    <div class="card-header">
+                        <h4 class="text-center">Đăng ký tài khoản</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="username">Tài khoản</label>
+                                
+                                <input type="text"
+                                style="border: none; border-bottom: 1px solid; outline: none; background-image: url(../watcher-html/images/bg-1.webp);"
+                                class="form-control" id="username" placeholder="Nhập tài khoản" required>
+                                <div class="invalid-feedback">
+                                    Tài khoản không được để trống
+                                </div>
+                                <div class="row">
+                                    <span class="tbTK">*</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email"
+                                style="border: none; border-bottom: 1px solid; outline: none; background-image: url(../watcher-html/images/bg-1.webp);"
+                                class="form-control" id="email" placeholder="Nhập email" required>
+                                <div class="invalid-feedback">
+                                    Email không hợp lệ
+                                </div>
+                                <div class="row">
+                                    <span class="tbEmail">*</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Mật khẩu</label>
+                                <input type="password"
+                                style="border: none; border-bottom: 1px solid; outline: none; background-image: url(../watcher-html/images/bg-1.webp);"
+                                class="form-control" id="password" placeholder="Nhập mật khẩu" required>
+                                <div class="invalid-feedback">
+                                    Mật khẩu phải có ít nhất 6 ký tự
+                                </div>
+                                <div class="row">
+                                    <span class="tbMK">*</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password">Xác nhận mật khẩu</label>
+                                <input type="password"
+                                    style="border: none; border-bottom: 1px solid; outline: none; background-image: url(../watcher-html/images/bg-1.webp);"
+                                    class="form-control" id="confirm-password" placeholder="Xác nhận mật khẩu" required>
+                                    <div class="invalid-feedback">
+                                        Mật khẩu không khớp
+                                    </div>
+                                    <div class="row">
+                                        <span class="tbXNMK">*</span>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    
+                                    <div class="agree">
+                                        <input type="checkbox"
+                                        style="border: none; border-bottom: 1px solid; outline: none; background-image: url(../watcher-html/images/bg-1.webp);"
+                                        size="20" class="form-check-input" id="agree-term" required>
+                                        <label class="form-check-label" for="agree-term">Tôi đồng ý với <a href="#">điều
+                                            khoản dịch vụ</a></label>
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Bạn phải đồng ý với điều khoản dịch vụ
+                                        </div>
+                                    </div>
+                                    <div class="submit">
+                                        <button type="submit" class="btn btn-primary btn-block mt-3">Đăng ký</button>
+                                    </div>
+                                </form>
+                                <div class="logon">
+                                    <div class="text-center mt-3">
+                                        Bạn đã có tài khoản? <a href="#">Đăng nhập</a>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/"></script>
+</body>

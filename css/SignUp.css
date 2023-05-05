@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b5caee;
+    ;
+    line-height: 50px;
+}
+
+.hero_area {
+    position: relative;
+}
+
+.card {
+    background-size: cover;
+    background-image: url(../images/bg-1.webp);
+    position: absolute;
+    left: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-header {
+    background-color: #007bff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+}
+
+/* .login{
+    left: 0px;
+    width: 2300px;
+  } */
+.form-group label {
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0062cc;
+    border: none;
+}
+
+.agree {
+    margin-left: 350px;
+
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.form-check-label a {
+    color: #007bff;
+}
+
+.form-check-label a:hover {
+    color: #0056b3;
+}
+
+.invalid-feedback {
+    display: none;
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.invalid-feedback.show {
+    display: block;
+}
+
+.submit {
+    margin-left: 0px;
+}
+
+.logon {
+    bottom: 0px;
+}
+.form-control input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    width: 500px;
+}
+.form-control.is-invalid {
+    border-color: #dc3545;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+@media (min-width: 576px) {
+    .card {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        margin-top: 150px;
+    }
+}

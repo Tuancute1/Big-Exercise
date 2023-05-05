@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Trang Login</title>
+    <link rel="stylesheet" href="../css/SignIn.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.scss">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <section class="hero_area">
+        <div class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            SuperAudio
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html"> Giới thiệu shop </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="watch.html"> Sản phẩm </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="SignIn.html"> SignIn </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="SignUp.html"> SignUp </a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="noi-dung">
+            <div class="form">
+                <h2>Trang Đăng Nhập</h2>
+                <form action="">
+                    <div class="input-form">
+                        <span>Tên Người Dùng</span>
+                        <input type="text" name="" placeholder="Tên Tài Khoản/Email">
+                    </div>
+                    <div class="input-form">
+                        <span>Mật Khẩu</span>
+                        <input type="password" name="" placeholder="Nhập mật khẩu">
+                    </div>
+                    <div class="nho-dang-nhap">
+                        <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" value="Đăng Nhập">
+                    </div>
+                    <div class="input-form">
+                        <p>Bạn Chưa Có Tài Khoản? <a href="../SignUp.html">Đăng Ký</a></p>
+                    </div>
+                </form>
+                <h3>Đăng Nhập Bằng Mạng Xã Hội</h3>
+                <ul class="icon-dang-nhap">
+                    <li> <a href="https://vi-vn.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
